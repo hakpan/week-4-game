@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CrystalsCollector</title>
+
+		<!--Reset Style for web browsers -->
+	 <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+	 <!-- Link to CSS style sheet -->
+	 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<!-- Google Fonts -->
+	 <link href="https://fonts.googleapis.com/css?family=Montserrat|Pacifico" rel="stylesheet">
+
+		<!-- Bootstrap style sheet -->
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+</head>
+<body> 
+
+<div class="container">
+  	<div class="row">
+  		<div class="col-sm-8 header">
+    		<h1>CrystalsCollector!</h1>
+		</div>
+  	</div>
+ </div>
+
+ <br>
+
+<div class="container">
+  	<div class="row">
+    	<div class="col-sm-8 howTo">
+				<p>You will be given a random number at the start of the game.
+				<br><br>
+				There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+				<br><br>
+				You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.
+				<br><br>
+				The value of each crystal is hidden from you until you click on it.
+				<br><br>
+				Each time when the game starts, the game will change the values of each crystal.
+    	</div>
+	</div>
+</div>
+
+<br>
+
+<div class="container">
+  	<div class="row">
+  		<!-- Column 1 of 3 -->
+    	<div class="col-sm-3 randomNumber">
+    		<div id="randomNumberCounter">
+				34
+			</div>
+    	</div>
+    	<!-- Column 2 of 3 -->
+    	<div class="col-sm-1">
+    	</div>
+    	<!-- Column 3 of 3 -->
+    	<div class="col-sm-4 points">
+    		<div id="pointsCounter">
+				Wins and Loses Counter
+			</div>
+    	</div>
+	</div>
+</div>
+
+<br>
+
+<div class="container">
+  	<div class="row">
+    	<div class="col-sm-2">
+    		<div id="gem1">
+				<img src="assets/images/aqua.jpg" alt="aqua 1stgem" width="100" height="100">
+			</div>
+    	</div>
+    	<div class="col-sm-2">
+    		<div id="gem2">
+				<img src="assets/images/red.jpg" alt="red 2ndgem" width="100" height="100">
+			</div>
+    	</div>
+    	<div class="col-sm-2">
+    		<div id="gem3">
+				<img src="assets/images/yellow.jpg" alt="yellow 3rdgem" width="100" height="100">
+			</div>
+    	</div>
+    	<div class="col-sm-2">
+    		<div id="gem4">
+				<img src="assets/images/diamond.jpg" alt="diamond 3rdgem" width="100" height="100">
+			</div>
+    	</div>
+	</div>
+</div>
+
+<br>
+
+<div class="container">
+  	<div class="row">
+    	<div class="col-sm-4 yourScore">
+			Your total score is:
+    	</div>
+	</div>
+</div>
+
+<br>
+
+<div class="container">
+  	<div class="row">
+    	<div class="col-sm-4 scoreDiv">
+    		<div id="score">
+				Holds score
+			</div>
+    	</div>
+	</div>
+</div>
+
+<br>
+
+<div class="container">
+  	<div class="row">
+  		<div class="col-sm-8 footer">
+    		<h1>CrystalsCollector!</h1>
+		</div>
+  	</div>
+ </div>
+
+</body>
+
+
+
+<!-- JQuery -->
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+<!--Link to the JS Game -->
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</html>

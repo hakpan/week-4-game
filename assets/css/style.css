@@ -1,0 +1,82 @@
+ body {
+  	background-image: url("../images/background.jpg");
+  	background-size: cover;
+
+  }
+
+p {
+	color: #00B629;
+	padding: 10px;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+ .header {
+ 	background-color: #FF9B23 !important;
+ 	color: #fff;
+ 	font-family: 'Pacifico', cursive;
+ 	height: 80px;
+ 	padding-top: 12px;
+
+ }
+
+ .howTo {
+ 	background-color: #FFEFBD !important;
+ }
+
+ .randomNumber {
+ 	background-color: #7CEEA0;
+ 	color: #9131B0;
+ 	text-align: center;
+ 	height: 100px;
+ 	font-size: 30px;
+ 	padding-top: 15px;
+ 	font-family: 'Montserrat', sans-serif;
+
+ }
+
+  .points {
+ 	background-color: #8DFBF3;
+ 	color: #00B629;
+ 	text-align: center;
+ 	height: 100px;
+ 	font-size: 12px;
+ 	padding-top: 15px;
+ 	font-family: 'Montserrat', sans-serif;
+
+ }
+
+ .yourScore {
+ 	background-color: #088BAC;
+ 	color: #fff;
+ 	text-align: center;
+ 	font-size: 30px;
+ 	padding-top: 5px;
+ 	padding-bottom: 5px;
+ 	font-family: 'Montserrat', sans-serif;
+ }
+
+ .scoreDiv {
+ 	background-color: #088BAC;
+ 	color: #fff;
+ 	text-align: center;
+ 	font-size: 30px;
+ 	padding-top: 5px;
+ 	padding-bottom: 5px;
+ 	font-family: 'Montserrat', sans-serif;
+ }
+
+ .footer {
+ 	background-color: #FF9B23 !important;
+ 	color: #fff;
+ 	font-family: 'Pacifico', cursive;
+ 	height: 80px;
+ 	padding-top: 12px;
+
+ }
+
+
+
+
+
+
