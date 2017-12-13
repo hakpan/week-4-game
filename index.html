@@ -20,17 +20,20 @@
 <body> 
 
 <div class="container">
-  	<div class="row">
-  		<div class="col-sm-8 header">
+
+  <!-- Header -->
+  <div class="row">
+  	<div class="col-sm-8 header">
     		<h1>CrystalsCollector!</h1>
 		</div>
-  	</div>
- </div>
+  </div>
+ 
 
  <br>
 
-<div class="container">
-  	<div class="row">
+<!-- Instructions -->
+
+  <div class="row">
     	<div class="col-sm-8 howTo">
 				<p>You will be given a random number at the start of the game.
 				<br><br>
@@ -43,98 +46,102 @@
 				Each time when the game starts, the game will change the values of each crystal.
     	</div>
 	</div>
-</div>
+
 
 <br>
 
-<div class="container">
-  	<div class="row">
-  		<!-- Column 1 of 3 -->
-    	<div class="col-sm-3 randomNumber">
-    		<div id="randomNumberCounter">
-				34
-			</div>
-    	</div>
-    	<!-- Column 2 of 3 -->
-    	<div class="col-sm-1">
-    	</div>
-    	<!-- Column 3 of 3 -->
-    	<div class="col-sm-4 points">
-    		<div id="pointsCounter">
-				Wins and Loses Counter
-			</div>
-    	</div>
+<!-- Gem score & wins&Loses counter -->
+  <div class="row">
+
+    <!-- Gem Score -->
+    <div class="col-sm-3 gemScoreArea">
+      <div id="gemScore"></div>
+    </div>
+    <!-- Empty Column for spacing -->
+    <div class="col-sm-1">
+   </div>
+    <!-- Wins & Loses Counter -->
+    <div class="col-sm-4 points">
+      <div id="winsDiv">
+        Wins:
+        <div id="wins"></div>
+      </div>
+      <hr>
+      <div id="losesDiv">
+        Loses:
+        <div id="loses"></div>
+      </div>
+    </div>
+  </div>
+
+
+<br>
+
+<!-- Gems -->
+
+  <div class="row">
+
+    <div class="col-sm-2">
+				<img src="assets/images/aqua.jpg" alt="aqua 1stgem" width="100" height="100" id="gem1">
+    </div>
+
+    <div class="col-sm-2">
+			<img src="assets/images/red.jpg" alt="red 2ndgem" width="100" height="100" id="gem2">
+    </div>
+
+    <div class="col-sm-2">
+			<img src="assets/images/yellow.jpg" alt="yellow 3rdgem" width="100" height="100" id="gem3">
+    </div>
+
+    <div class="col-sm-2">
+			<img src="assets/images/diamond.jpg" alt="diamond 3rdgem" width="100" height="100" id="gem4">
+    </div>
+    
 	</div>
-</div>
+
 
 <br>
 
-<div class="container">
-  	<div class="row">
-    	<div class="col-sm-2">
-    		<div id="gem1">
-				<img src="assets/images/aqua.jpg" alt="aqua 1stgem" width="100" height="100">
-			</div>
-    	</div>
-    	<div class="col-sm-2">
-    		<div id="gem2">
-				<img src="assets/images/red.jpg" alt="red 2ndgem" width="100" height="100">
-			</div>
-    	</div>
-    	<div class="col-sm-2">
-    		<div id="gem3">
-				<img src="assets/images/yellow.jpg" alt="yellow 3rdgem" width="100" height="100">
-			</div>
-    	</div>
-    	<div class="col-sm-2">
-    		<div id="gem4">
-				<img src="assets/images/diamond.jpg" alt="diamond 3rdgem" width="100" height="100">
-			</div>
-    	</div>
-	</div>
-</div>
+<!-- Score tracking area -->
 
-<br>
-
-<div class="container">
   	<div class="row">
-    	<div class="col-sm-4 yourScore">
+    	<div class="col-sm-8 yourScore">
 			Your total score is:
     	</div>
 	</div>
-</div>
+
 
 <br>
 
-<div class="container">
+
   	<div class="row">
-    	<div class="col-sm-4 scoreDiv">
-    		<div id="score">
-				Holds score
-			</div>
+    	<div class="col-sm-8 scoreDiv">
+    		<div id="score"></div>
     	</div>
 	</div>
-</div>
+
 
 <br>
 
-<div class="container">
+<!-- Footer -->
+
   	<div class="row">
   		<div class="col-sm-8 footer">
     		<h1>CrystalsCollector!</h1>
-		</div>
+		  </div>
   	</div>
- </div>
+
+</div>
 
 </body>
 
-
-
 <!-- JQuery -->
- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 
+<!-- Javascript -->
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Bootstrap -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
